@@ -1,4 +1,4 @@
 module.exports = {
     showLogs: true,
-    concurrency: 1,
+    concurrency: 10,
   }
