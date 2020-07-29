@@ -1,7 +1,8 @@
 /// <reference types="cypress" />
 
 before(() => {
-  cy.visit("https://demo.applitools.com/hackathon.html");
+  // cy.visit("https://demo.applitools.com/hackathon.html");
+  cy.visit("https://demo.applitools.com/hackathonV2.html");
 });
 
 describe("Validate Labels", () => {
