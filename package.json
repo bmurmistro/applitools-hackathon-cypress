@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "TraditionalSuiteV1": "cypress open --config baseUrl=https://demo.applitools.com/hackathon.html ./TraditionalSuite.spec.js",
+    "TraditionalSuiteV2": "cypress open --config baseUrl=https://demo.applitools.com/hackathonV2.html ./TraditionalSuite.spec.js",
+    "VisualAITestV1": "cypress open --config baseUrl=https://demo.applitools.com/hackathon.html ./VisualAITest.spec.js",
+    "VisualAITestV2": "cypress open --config baseUrl=https://demo.applitools.com/hackathonv2.html ./VisualAITest.spec.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@applitools/eyes-cypress": "^3.13.4",
-    "cypress": "^5.1.0"
+    "@applitools/eyes-cypress": "^3.14.0",
+    "cypress": "^5.3.0"
   }
 }

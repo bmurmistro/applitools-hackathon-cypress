@@ -1,8 +1,8 @@
 /// <reference types="cypress" />
 
 before(() => {
-  cy.visit('hackathon.html');
-  // cy.visit('hackathonV2.html');
+  cy.visit(Cypress.config('baseUrl'));
+  
 });
 
 describe("Validate Labels", () => {
@@ -114,6 +114,6 @@ describe("Validate Log-in Functionality", () => {
     cy.get("#username").type("demo@applitools.com");
     cy.get("#password").type("password");
     cy.get("#log-in").click();
-    cy.url().should("eq", "http://demo.applitools.com/hackathonApp.html");
+    cy.url().should("eq", "https://demo.applitools.com/hackathonApp.html");
   });
 });
