@@ -31,7 +31,7 @@ describe('Visual Validation Applitools', () =>{
     it('Login Attempt Only Username', () => {
         cy.get("#username").type("demo@applitools.com")
         cy.get("#log-in").click()
-        cy.eyesCheckWindow('Login Attempt - Username Only')
+        // visual Validation
         cy.get("#username").clear()
     })
     it('Login Attempt Only Password', () => {
