@@ -7,7 +7,7 @@
     "TraditionalSuiteV1": "cypress open --config baseUrl=https://demo.applitools.com/hackathon.html ./TraditionalSuite.spec.js",
     "TraditionalSuiteV2": "cypress open --config baseUrl=https://demo.applitools.com/hackathonV2.html ./TraditionalSuite.spec.js",
     "VisualAITestSolutionV1": "cypress open --config baseUrl=https://demo.applitools.com/hackathon.html ./VisualAITestSolution.spec.js",
-    "VisualAITestSolutionV2": "cypress open --config baseUrl=https://demo.applitools.com/hackathonv2.html ./VisualAITestSolution.spec.js",
+    "VisualAITestSolutionV2": "cypress open --config baseUrl=https://demo.applitools.com/hackathonV2.html ./VisualAITestSolution.spec.js",
     "VisualAITestV1": "cypress open --config baseUrl=https://demo.applitools.com/hackathon.html ./VisualAITest.spec.js",
     "VisualAITestV2": "cypress open --config baseUrl=https://demo.applitools.com/hackathonV2.html ./VisualAITest.spec.js"
   },
