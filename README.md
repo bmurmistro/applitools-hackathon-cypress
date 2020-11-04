@@ -1,10 +1,9 @@
 ### Applitools Cypress Hackathon
 To view the Applitools Cypress SDK click [here](https://www.npmjs.com/package/@applitools/eyes-cypress)
 ## Pre-Requisites
-1.  Install node [here](https://nodejs.org/en/) or for a mac user: `brew update` and then `brew install node`
-2.  Install ChromeDriver from [here](https://chromedriver.chromium.org/downloads) if you are running on mac, you can also install it using the brew, simply run `brew install chromedriver`
-3.  Register to Applitools and [create an account](https://auth.applitools.com/users/register)
-4.  Ensure you have your Applitools API Key!
+1.  Install node [here](https://nodejs.org/en/) or for a mac user: `brew update` and then `brew install node``
+2.  Register to Applitools and [create an account](https://auth.applitools.com/users/register)
+3.  Ensure you have your Applitools API Key!
 
 ## Hackathon Overview
 Imagine you wrote tests for the [1st Version of the App (V1)](https://demo.applitools.com/hackathon.html)
