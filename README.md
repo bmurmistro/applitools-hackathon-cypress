@@ -60,5 +60,7 @@ Note: When you run the tests against V2, you’ll see differences in screenshots
        - `npm run VisualAITestSolutionV1`
     -  Run the Visual AI Suite Solution on Version 2:
        -  `npm run VisualAITestSolutionV2`
+       
+### After Running the command, make sure to click on the correct file in the Cypress window!
 
 
