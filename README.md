@@ -39,7 +39,7 @@ Note: When you run the tests against V2, you’ll see differences in screenshots
 3.2.  Navigate to the recently cloned folder cs-applitools-java-hackathon
 -  run `npm install`
 - run `npx eyes-setup`
-- run for a mac: `export APPLITOOLS_API_KEY=<YOUR_API_KEY>` for windows: `set APPLITOOLS_API_KEY=<YOUR_API_KEY>
+- run for a mac: `export APPLITOOLS_API_KEY=<YOUR_API_KEY>` for windows: `set APPLITOOLS_API_KEY=<YOUR_API_KEY>`
   
 3.3.  Run one of the following commands for Traditional Test Suite
 -  Run the Traditional Test Suite on Version 1: 
