@@ -10,7 +10,7 @@ describe('Visual Validation Applitools', () =>{
     });
     beforeEach(function() {
         cy.eyesOpen({
-            appName: 'Applitools Hackathon',
+            appName: 'ApplitoolsPalooza - [Team Name]',
             testName: this.currentTest.title,
         })
     })
