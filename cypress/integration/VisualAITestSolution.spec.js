@@ -1,7 +1,6 @@
 /// <reference types="cypress" />
 
 
-
 describe('Visual Validation Applitools', () =>{ 
    
     before(function() {

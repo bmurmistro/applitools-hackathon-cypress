@@ -1,7 +1,8 @@
 module.exports = {
     showLogs: false,
     concurrency: 10,
-    apiKey: 'VJMt4z4djBoqW40fclJgEpLGuwGppgZ98m5wtUuWhru0110',
+    //set your API Key here!
+    apiKey: '',
     //
     browser: [
         // Add browsers with different viewports
