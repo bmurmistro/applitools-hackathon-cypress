@@ -75,6 +75,6 @@ Once you’ve done the checks listed above:
 
 8. Create layout regions over dynamic content on the “Login Attempt - Success” test. Save these changes to the baseline. Be sure to enable “Auto-Maintenance: Batch” to apply to multiple tests at once. 
 
-9. Bonus: Ignore the “password” css selector using the Applitools SDK in your eyesCheckWindow calls. (Hint, see the docs [here](https://www.npmjs.com/package/@applitools/eyes-cypress))
+9. Ignore the “password” css selector using the Applitools SDK in your eyesCheckWindow calls. (Hint, see the docs [here](https://www.npmjs.com/package/@applitools/eyes-cypress))
 
-
+10. Run an Applitools cross-browser test on a site of your choice, and apply Applitools regions to it as though you were testing it. Ex. Applying Layout regions to dynamic content, Ignore regions to areas not under test, ect. 
