@@ -3,7 +3,9 @@ To view the Applitools Cypress SDK click [here](https://www.npmjs.com/package/@a
 ## Pre-Requisites
 1.  Install node [here](https://nodejs.org/en/) or for a mac user: `brew update` and then `brew install node``
 2.  Register to Applitools and [create an account](https://auth.applitools.com/users/register)
-3.  Ensure you have your Applitools API Key!
+3.  Ensure you have your Applitools API Key! Set it in applitools.config.js. 
+4.  Set your batch name to include your breakout team name. Can be the Team Leader's name if you don't think of anything. 
+5.  Set your App name (In cy.eyesOpen) to the same team name. 
 
 ## Hackathon Overview
 Imagine you wrote tests for the [1st Version of the App (V1)](https://demo.applitools.com/hackathon.html)
