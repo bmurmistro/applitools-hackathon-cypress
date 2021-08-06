@@ -63,8 +63,6 @@ Note: When you run the tests against V2, you’ll see differences in screenshots
     -  Run the Visual AI Suite Solution on Version 2:
        -  `npm run VisualAITestSolutionV2`
        
-### After Running the command, make sure to click on the correct file in the Cypress window!
-
 ## Next Steps!
 
 Once you’ve done the checks listed above: 
@@ -73,7 +71,7 @@ Once you’ve done the checks listed above:
 - (Chrome) iPad, (Chrome) Kindle Fire HDX in Landscape Mode, Safari 1200x800.
 - Hint: [Device Names](https://github.com/applitools/eyes.sdk.javascript1/blob/master/packages/eyes-sdk-core/lib/config/DeviceName.js)
 
-7. From the Applitools dashboard, use “Group By” to group tests by their test name. Send Casey a screenshot when you’ve done this. 
+7. From the Applitools dashboard, use “Group By” to group tests by their test name. Send Brandon a screenshot when you’ve done this. 
 
 8. Create layout regions over dynamic content on the “Login Attempt - Success” test. Save these changes to the baseline. Be sure to enable “Auto-Maintenance: Batch” to apply to multiple tests at once. 
 
