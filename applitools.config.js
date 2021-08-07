@@ -1,9 +1,9 @@
 module.exports = {
     showLogs: false,
-    concurrency: 10,
-    //set your API Key here!
-    apiKey: '',
-    //
+    testConcurrency: 10,
+    apiKey: process.env.APPLITOOLS_API_KEY || 'your APPLITOOLS_API_KEY',
+    batchName: '[Team Name] Cypress Batch',
+    appName: '[Team Name] Cypress App',
     browser: [
         // Add browsers with different viewports
         {width: 800, height: 600, name: 'chrome'},
@@ -14,8 +14,6 @@ module.exports = {
         {deviceName: 'iPhone X', screenOrientation: 'portrait'},
         {deviceName: 'Pixel 2', screenOrientation: 'portrait'}
      ],
-    // set batch name to the configuration
-    batchName: '[Team Name] Cypress Batch'
   }
 
      

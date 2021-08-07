@@ -4,17 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "TraditionalSuiteV1": "cypress run --config baseUrl=https://demo.applitools.com/hackathon.html ./TraditionalSuite.spec.js",
-    "TraditionalSuiteV2": "cypress run --config baseUrl=https://demo.applitools.com/hackathonV2.html ./TraditionalSuite.spec.js",
-    "VisualAITestSolutionV1": "cypress run --config baseUrl=https://demo.applitools.com/hackathon.html ./VisualAITestSolution.spec.js",
-    "VisualAITestSolutionV2": "cypress run --config baseUrl=https://demo.applitools.com/hackathonV2.html ./VisualAITestSolution.spec.js",
-    "VisualAITestV1": "cypress run --config baseUrl=https://demo.applitools.com/hackathon.html ./VisualAITest.spec.js",
-    "VisualAITestV2": "cypress run --config baseUrl=https://demo.applitools.com/hackathonV2.html ./VisualAITest.spec.js"
+    "TraditionalSuiteV1": "cypress run --config baseUrl=https://demo.applitools.com/hackathon.html --spec ./cypress/integration/TraditionalSuite.spec.js",
+    "TraditionalSuiteV2": "cypress run --config baseUrl=https://demo.applitools.com/hackathonV2.html --spec ./cypress/integration/TraditionalSuite.spec.js",
+    "VisualAITestSolutionV1": "cypress run --config baseUrl=https://demo.applitools.com/hackathon.html --spec ./cypress/integration/VisualAITestSolution.spec.js",
+    "VisualAITestSolutionV2": "cypress run --config baseUrl=https://demo.applitools.com/hackathonV2.html --spec ./cypress/integration/VisualAITestSolution.spec.js",
+    "VisualAITestV1": "cypress run --config baseUrl=https://demo.applitools.com/hackathon.html --spec ./cypress/integration/VisualAITest.spec.js",
+    "VisualAITestV2": "cypress run --config baseUrl=https://demo.applitools.com/hackathonV2.html --spec ./cypress/integration/VisualAITest.spec.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@applitools/eyes-cypress": "3.22.2",
+    "cross-env": "^7.0.3",
     "cypress": "7.2.0"
   }
 }
