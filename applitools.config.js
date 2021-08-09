@@ -1,6 +1,6 @@
 module.exports = {
     showLogs: false,
-    testConcurrency: 10,
+    testConcurrency: 30,
     apiKey: process.env.APPLITOOLS_API_KEY || 'your APPLITOOLS_API_KEY',
     batchName: '[Team Name] Cypress Batch',
     appName: '[Team Name] Cypress App',
