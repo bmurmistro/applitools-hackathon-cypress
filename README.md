@@ -5,13 +5,13 @@ To view the Applitools Cypress SDK click [here](https://www.npmjs.com/package/@a
 2.  Download the Example
     -  Option 1:  `git clone https://github.com/bmurmistro/applitools-hackathon-cypress`
     -  Option 2:  Download it as a Zip file and extract it
-3.  Navigate to the recently cloned folder cs-applitools-java-hackathon
+3.  Navigate to the recently cloned folder applitools-hackathon-cypress
     -  run `npm install`
     -  run `npx eyes-setup`
 4.  If you don't have an account with Applitools, register and [create an account](https://auth.applitools.com/users/register)
 5.  Ensure you have your Applitools API Key! Set it in applitools.config.js. 
-6.  Set your batch name to include your breakout team name. Can be the Team Leader's name if you don't think of anything. If you want to follow along on your own, simply put use your name.
-7.  Set your App name (In cy.eyesOpen) to the same team name. 
+6.  Set your batch name (applitools.config.js) to include your breakout team name. Can be the Team Leader's name if you don't think of anything. If you want to follow along on your own, simply put use your name. Set it in applitools.config.js. 
+7.  Set your App name (applitools.config.js) to the same team name. 
 
 ## Hackathon Overview
 Imagine you wrote tests for the [1st Version of the App (V1)](https://demo.applitools.com/hackathon.html)
