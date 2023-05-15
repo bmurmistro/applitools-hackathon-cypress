@@ -12,7 +12,9 @@ module.exports = {
         {width: 1024, height: 768, name: 'edgechromium'},
         // Add mobile emulation devices in Portrait mode
         {deviceName: 'iPhone X', screenOrientation: 'portrait'},
-        {deviceName: 'Pixel 2', screenOrientation: 'portrait'}
+        { iosDeviceInfo: {
+            deviceName: 'iPhone 13',
+        }}
      ],
   }
 
