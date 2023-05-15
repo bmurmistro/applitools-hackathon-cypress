@@ -11,7 +11,7 @@ describe('Visual Validation Applitools', () =>{
     beforeEach(function() {
         cy.eyesOpen({
             // we are getting this from the applitools.config.js
-            // appName: 'Applitools Hackathon - [Team Name]',
+            //appName: 'Applitools Hackathon - [Team Name]',
             testName: this.currentTest.title,
         })
     })
@@ -21,6 +21,10 @@ describe('Visual Validation Applitools', () =>{
 
     it('Display Elements of Authentification Page', () => {
         cy.eyesCheckWindow('Login Page')  
+    })
+
+    it('Display Elements of Authentification Page Empty', () => {
+        cy.eyesCheckWindow('Login Page')
     })
     
 

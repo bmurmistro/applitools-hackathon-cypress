@@ -2,8 +2,8 @@ module.exports = {
     showLogs: false,
     testConcurrency: 30,
     apiKey: process.env.APPLITOOLS_API_KEY || 'your APPLITOOLS_API_KEY',
-    batchName: '[Team Name] Cypress Batch',
-    appName: '[Team Name] Cypress App',
+    batchName: '[Team Name goes here] Cypress Batch',
+    appName: '[Team Name goes here] Cypress App',
     browser: [
         // Add browsers with different viewports
         {width: 800, height: 600, name: 'chrome'},
