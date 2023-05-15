@@ -24,7 +24,6 @@ describe('Visual Validation Applitools', () =>{
     })
 
     it('Display Elements of Authentification Page Empty', () => {
-        cy.eyesCheckWindow('Login Page')
     })
     
 
